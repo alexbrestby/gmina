@@ -1,0 +1,11 @@
+{
+    "Login" : "Войти",
+    "Register": "Регистрация",
+    "Forgot Your Password?": "Напомнить пароль?",
+    "E-Mail Address": "Адрес e-mail",
+    "Password": "Пароль",
+    "Remember Me": "Запомнить меня",
+    "Logout": "Выход",
+    "You are logged in": "Вы вошли как",
+    "Dashboard": "Панель администрирования"
+}

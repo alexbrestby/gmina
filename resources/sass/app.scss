@@ -1,0 +1,130 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+@import 'fonts';
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fontawesome
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+html,
+body {
+    height: 100%;
+}
+
+#app {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+
+.navbar-brand {
+    font-family: 'Praho-Black';
+    font-size: 30px;
+}
+
+.godlo-img,
+.gallery-img {
+    width: 40px;
+    height: 40px;
+}
+
+.card-text {
+    padding-bottom: 35px;
+}
+
+.card-body>a {
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
+}
+
+@keyframes fa-blinkin {
+    0% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fa-blinkin {
+    -webkit-animation: fa-blinkin 7s linear infinite;
+    -moz-animation: fa-blinkin 7s linear infinite;
+    -ms-animation: fa-blinkin 7s linear infinite;
+    -o-animation: fa-blinkin 7s linear infinite;
+    animation: fa-blinkin 7s linear infinite;
+}
+
+mark {
+    background-color: hotpink;
+}
+
+@media screen and (min-width: 600px) {
+    .item {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .btn {
+        display: block;
+    }
+
+    .carousel-outer {
+        text-align: center;
+        margin-top: 1.5em;
+        font-size: .3em;
+        line-height: .2em;
+    }
+}
+
+.blinking {
+    animation: blinkingText 1s 5;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: #000;
+    }
+
+    49% {
+        color: #000;
+    }
+
+    60% {
+        color: transparent;
+    }
+
+    99% {
+        color: transparent;
+    }
+
+    100% {
+        color: #000;
+    }
+}
